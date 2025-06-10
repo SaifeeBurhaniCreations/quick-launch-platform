@@ -161,11 +161,11 @@ const Index = () => {
               <TabsContent value="a-record">
                 <Card>
                   <CardContent className="pt-6">
-                    <CodeBlock>
+                    {/* <CodeBlock>
                       {`Type: A
 Host: *.sbc-deploy.com
 Value: 123.123.123.123 (Server IP)`}
-                    </CodeBlock>
+                    </CodeBlock> */}
                   </CardContent>
                 </Card>
 
@@ -173,11 +173,11 @@ Value: 123.123.123.123 (Server IP)`}
               <TabsContent value="cname-record">
                 <Card>
                   <CardContent className="pt-6">
-                    <CodeBlock>
+                    {/* <CodeBlock>
                       {`Type: CNAME
 Host: *.sbc-deploy.com
 Value: sbc-deploy.com`}
-                    </CodeBlock>
+                    </CodeBlock> */}
                   </CardContent>
                 </Card>
 
